@@ -7,9 +7,9 @@ namespace ClassMetotDemo
     class Musteri
     {
         public int MusteriId { get; set; }
-        public int MusteriAd { get; set; }
-        public int MusteriSoyad { get; set; }
-        public int TCKimlikNo { get; set; }
-        public int MusteriTelefon { get; set; }
+        public string MusteriAd { get; set; }
+        public string MusteriSoyad { get; set; }
+        public string TCKimlikNo { get; set; }
+        public string MusteriTelefon { get; set; }
     }
 }
